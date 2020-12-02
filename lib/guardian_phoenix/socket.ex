@@ -51,7 +51,7 @@ defmodule Guardian.Phoenix.Socket do
 
   import Guardian.Plug.Keys
 
-  alias Phoenix.Socket
+  alias Phoenix.LiveView.Socket
 
   @doc """
   Puts the current token onto the socket for later use.
