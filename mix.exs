@@ -52,6 +52,7 @@ defmodule GuardianPhoenix.MixProject do
     [
       {:guardian, "~> 2.0"},
       {:phoenix, "~> 1.5"},
+      {:phoenix_live_view, "~> 0.15.0"},
 
       # Test
       {:jason, "~> 1.1", only: [:dev, :test], runtime: false},
