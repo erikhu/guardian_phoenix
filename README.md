@@ -1,13 +1,18 @@
-# Guardian.Phoenix
+# FORK of Guardian.Phoenix
 
-Integration of Guardian and Phoenix.
+Integration of Guardian and Phoenix with support to liveview using the class,
+it have the same functions of Guardian.Phoenix.Socket
+
+``` elixir
+alias Guardian.Phoenix.SocketLive
+```
 
 ## Installation
 
 ```elixir
 def deps do
   [
-    {:guardian_phoenix, "~> 2.0"}
+    {:guardian_phoenix, git: "https://github.com/erikhu/guardian_phoenix.git"}
   ]
 end
 ```
